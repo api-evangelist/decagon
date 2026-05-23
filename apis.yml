@@ -1,0 +1,115 @@
+aid: decagon
+name: Decagon
+description: Decagon is an enterprise AI customer service platform that builds and operates voice, chat,
+  and email AI agents on top of natural-language Agent Operating Procedures (AOPs). The platform includes
+  the AI Agents Studio for authoring agents, Watchtower for continuous quality assurance, Voice of the Customer
+  analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon is enterprise
+  sales-led; its developer documentation is gated behind an access code and no self-serve public API is published.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+position: Producer
+tags:
+- Agents
+- AI
+- Chat
+- Conversational AI
+- Customer Experience
+- Customer Service
+- Enterprise
+- Voice
+apis:
+- aid: decagon:ai-agents-studio
+  name: Decagon AI Agents Studio
+  description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and
+    operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent
+    behavior across voice, chat, and email. Studio includes simulations, A/B testing, Watchtower QA, and
+    Voice of the Customer analytics. Developer documentation is gated and accessed via customer-issued credentials.
+  humanURL: https://decagon.ai/product
+  tags:
+  - Agents
+  - AOPs
+  - Conversational AI
+  - Enterprise
+  - Studio
+  properties:
+  - type: Documentation
+    url: https://decagon.ai/product
+  - type: Portal
+    url: https://docs.decagon.ai
+common:
+- type: Website
+  url: https://decagon.ai
+- type: Documentation
+  url: https://docs.decagon.ai
+- type: Blog
+  url: https://decagon.ai/blog
+- type: Customers
+  url: https://decagon.ai/customers
+- type: TermsOfService
+  url: https://decagon.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://decagon.ai/legal/privacy-policy
+- type: Support
+  url: https://decagon.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/decagon-ai
+- name: Decagon University
+  url: https://decagon.ai/university
+  type: Training
+- name: Resource Hub
+  url: https://decagon.ai/resources
+  type: Resources
+- name: Glossary
+  url: https://decagon.ai/glossary
+  type: Reference
+- type: Features
+  data:
+  - name: Agent Operating Procedures (AOPs)
+    description: Natural-language workflows that define agent behavior without complex configuration languages.
+  - name: AI Agents Studio
+    description: Build, deploy, test, and optimize AI agents across voice, chat, and email channels.
+  - name: Voice AI Agents
+    description: Natural-dialogue voice agents with brand customization.
+  - name: Watchtower
+    description: Continuous quality assurance for live agent conversations.
+  - name: Voice of the Customer
+    description: Analytics suite extracting insights from customer conversations.
+  - name: A/B Testing & Simulations
+    description: Testing and optimization tooling including multivariate testing and conversation simulations.
+  - name: Tool Connectors
+    description: Integrations to back-office systems and knowledge bases for agent grounding.
+- type: UseCases
+  data:
+  - name: Customer Service Automation
+    description: Resolve customer support inquiries autonomously across voice, chat, and email.
+  - name: Voice IVR Replacement
+    description: Replace traditional IVR with natural conversational voice agents.
+  - name: Conversation Intelligence
+    description: Surface customer insights and operational issues from conversation data.
+- type: Customers
+  data:
+  - name: Chime
+  - name: Duolingo
+  - name: ClassPass
+  - name: Hunter Douglas
+  - name: Hertz
+  - name: Oura
+  - name: Quince
+  - name: Gopuff
+  - name: Affirm
+  - name: Riot Games
+  - name: Dropbox
+  - name: Figma
+  - name: Noom
+  - name: Mercado Libre
+  - name: Rippling
+  - name: Notion
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com
