@@ -5,7 +5,7 @@ description: Decagon is an enterprise AI customer service platform that builds a
   the AI Agents Studio for authoring agents, Watchtower for continuous quality assurance, Voice of the Customer
   analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon is enterprise
   sales-led; its developer documentation is gated behind an access code and no self-serve public API is published.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
