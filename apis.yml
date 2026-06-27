@@ -109,7 +109,7 @@ common:
   - name: Mercado Libre
   - name: Rippling
   - name: Notion
-- type: LLMsTxt
+- type: LlmsText
   url: https://decagon.ai/llms.txt
 maintainers:
 - FN: Kin Lane

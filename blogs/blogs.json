@@ -3,19 +3,17 @@
   "feeds": [
     {
       "source": "https://decagon.ai/blog",
-      "feed_url": "https://decagon.ai/blog",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "feed_url": "",
+      "saved": 2,
+      "method": "agent-scrape"
     },
     {
       "source": "https://docs.decagon.ai",
-      "feed_url": "https://docs.decagon.ai",
-      "title": "",
       "saved": 0,
-      "method": "none"
+      "error": "gated docs portal, no posts"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 4,
+  "fetched": "2026-06-27T12:37:20Z",
+  "agent_pulled": "2026-06-27"
 }
