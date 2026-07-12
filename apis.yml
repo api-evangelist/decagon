@@ -42,6 +42,10 @@ apis:
   - type: Portal
     url: https://docs.decagon.ai
 common:
+- type: VulnerabilityDisclosure
+  url: security/decagon-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/decagon-domain-security.yml
 - type: Website
   url: https://decagon.ai
 - type: Documentation
