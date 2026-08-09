@@ -2,9 +2,10 @@ aid: decagon
 name: Decagon
 description: Decagon is an enterprise AI customer service platform that builds and operates voice, chat,
   and email AI agents on top of natural-language Agent Operating Procedures (AOPs). The platform includes
-  the AI Agents Studio for authoring agents, Watchtower for continuous quality assurance, Voice of the Customer
-  analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon is enterprise
-  sales-led; its developer documentation is gated behind an access code and no self-serve public API is published.
+  the AI Agents Studio for authoring agents, Watchtower for continuous quality assurance, Voice of the
+  Customer analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon
+  is enterprise sales-led; its developer documentation is gated behind an access code and no self-serve
+  public API is published.
 accessModel:
   pricing: free
   onboarding: unknown
@@ -20,7 +21,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/decagon.png
 url: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-08-08'
 specificationVersion: '0.19'
 type: Index
 access: 3rd-Party
@@ -37,10 +38,11 @@ tags:
 apis:
 - aid: decagon:ai-agents-studio
   name: Decagon AI Agents Studio
-  description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and
-    operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent
-    behavior across voice, chat, and email. Studio includes simulations, A/B testing, Watchtower QA, and
-    Voice of the Customer analytics. Developer documentation is gated and accessed via customer-issued credentials.
+  description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing,
+    and operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that
+    drive agent behavior across voice, chat, and email. Studio includes simulations, A/B testing, Watchtower
+    QA, and Voice of the Customer analytics. Developer documentation is gated and accessed via customer-issued
+    credentials.
   humanURL: https://decagon.ai/product
   tags:
   - Agents
@@ -127,7 +129,65 @@ common:
   - name: Notion
 - type: LlmsText
   url: https://decagon.ai/llms.txt
+- type: About
+  url: https://decagon.ai/about
+- type: ProductOverview
+  url: https://decagon.ai/product/overview
+- type: Voice
+  url: https://decagon.ai/product/voice
+- type: Chat
+  url: https://decagon.ai/product/chat
+- type: Email
+  url: https://decagon.ai/product/email
+- type: AgentOperatingProcedures
+  url: https://decagon.ai/product/aop
+- type: Integrations
+  url: https://decagon.ai/product/integrations
+- type: Experiments
+  url: https://decagon.ai/product/experiments
+- type: TestingQA
+  url: https://decagon.ai/product/testing-qa
+- type: InsightsReporting
+  url: https://decagon.ai/product/insights-and-reporting
+- type: Watchtower
+  url: https://decagon.ai/product/watchtower
+- type: Suggestions
+  url: https://decagon.ai/product/suggestions
+- type: IndustryRetail
+  url: https://decagon.ai/industry/retail
+- type: IndustryTravelHospitality
+  url: https://decagon.ai/industry/travel-hospitality
+- type: IndustryTechnology
+  url: https://decagon.ai/industry/technology
+- type: IndustryFinancialServices
+  url: https://decagon.ai/industry/financial-services
+- type: IndustryHealthWellness
+  url: https://decagon.ai/industry/health-wellness
+- type: IndustryMedia
+  url: https://decagon.ai/industry/media
+- type: IndustryTelecommunications
+  url: https://decagon.ai/industry/telecommunication
+- type: CaseStudies
+  url: https://decagon.ai/case-studies
+- type: Glossary
+  url: https://decagon.ai/glossary
+- type: Security
+  url: https://decagon.ai/security
+- type: TrustCenter
+  url: https://trust.decagon.ai/
+- type: Privacy
+  url: https://decagon.ai/legal/privacy
+- type: Careers
+  url: https://decagon.ai/careers
+- type: Login
+  url: https://decagon.ai/signin
+- type: ContactSales
+  url: https://decagon.ai/get-a-demo
+- type: Twitter
+  url: https://x.com/DecagonAI
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
   url: https://apievangelist.com
+x-merged-from:
+- decagon-ai
