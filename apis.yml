@@ -6,6 +6,17 @@ description: Decagon is an enterprise AI customer service platform that builds a
   Customer analytics, A/B testing and simulations, and tool connectors for back-office integrations. Decagon
   is enterprise sales-led; its developer documentation is gated behind an access code and no self-serve
   public API is published.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
