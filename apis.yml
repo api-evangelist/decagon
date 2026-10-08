@@ -80,6 +80,12 @@ apis:
   - type: Portal
     url: https://docs.decagon.ai
 common:
+- type: Plans
+  url: plans/decagon-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/decagon-rate-limits.yml
+- type: FinOps
+  url: finops/decagon-finops.yml
 - type: VulnerabilityDisclosure
   url: security/decagon-vulnerability-disclosure.yml
 - type: DomainSecurity
